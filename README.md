@@ -20,7 +20,7 @@ This repository contains a Django project with a RESTful API using Django REST F
 ## installation:
 ## Clone Repo: (copy below git clone to cmd)
     ```bash
-    git clone 
+    git clone https://github.com/NaveenKumarReddy21/Vendor-Management-System.git
     cd C:\Users\your_user_name\Vendor-Management-System
 
 1. Create and activate a virtual environment:
