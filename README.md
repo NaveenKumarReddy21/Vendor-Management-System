@@ -18,10 +18,10 @@ This repository contains a Django project with a RESTful API using Django REST F
 - Django ORM for database interactions
 
 ## installation:
-##Clone Repo: (copy below git clone to cmd)
+## Clone Repo: (copy below git clone to cmd)
     ```bash
     git clone 
-    cd C:\Users\your_user_name\
+    cd C:\Users\your_user_name\Vendor-Management-System
 
 1. Create and activate a virtual environment:
     ```bash
