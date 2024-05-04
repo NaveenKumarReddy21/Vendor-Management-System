@@ -18,33 +18,33 @@ This repository contains a Django project with a RESTful API using Django REST F
 - Django ORM for database interactions
 
 ## installation:
-## Clone Repo: (copy below git clone to cmd)
+1. Clone Repo: (copy below git clone to cmd)
     ```bash
     git clone https://github.com/NaveenKumarReddy21/Vendor-Management-System.git
     cd C:\Users\your_user_name\Vendor-Management-System
 
-1. Create and activate a virtual environment:
+2. Create and activate a virtual environment:
     ```bash
     python -m venv venv
     .\venv\Scripts\activate
 
    
-2. Install dependencies:
+3. Install dependencies:
    ```bash
     pip install -r requirements.txt
 
-3. Run migrations:
+4. Run migrations:
     ```bash 
     python manage.py makemigrations
     python manage.py migrate
 
-4. Create Superuser and Token:
+5. Create Superuser and Token:
     ```bash
     python manage.py createsuperuser
     curl -X POST -d "username=your_superuser_username&password=your_superuser_password" http://localhost:8000/
 
 
-5. Run :
+6. Run :
     ```bash 
     python manage.py runserver
 
